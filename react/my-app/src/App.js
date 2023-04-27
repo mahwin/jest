@@ -1,16 +1,9 @@
-import Hello from "./component/Hello";
-import Timer from "./component/Timer";
-
-const user = {
-  name: "Mike",
-  age: 30,
-};
+import MyPage from "./component/MyPage";
 
 function App() {
   return (
     <div className="App">
-      <Hello user={user} />
-      <Timer />
+      <MyPage user={{ name: "mahwin" }} />
     </div>
   );
 }
