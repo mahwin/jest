@@ -1,10 +1,9 @@
-import JoinButton from "./component/JoinButton";
-import MyPage from "./component/MyPage";
+import UserList from "./component/UserList";
 
 function App() {
   return (
     <div className="App">
-      <JoinButton />
+      <UserList user={["A", "C", "B"]} />
     </div>
   );
 }
